@@ -12,4 +12,6 @@
 
 -- write your sql code here
 
-SELECT * from countries;
+SELECT Country, Birthrate, Deathrate, Population FROM countries
+WHERE Birthrate > Deathrate AND Population > 50000000
+ORDER BY Country ASC;

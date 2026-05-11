@@ -11,4 +11,8 @@
 
 
 -- write your sql code here
+SELECT country, GDPPerCapita from countries
+GROUP BY Country ='c'
+ORDER BY GDPPerCapita DESC
+LIMIT 3;
 
